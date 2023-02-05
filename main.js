@@ -34,10 +34,3 @@ window.addEventListener('load',function(){
     x === true&& x1 === true && x2 === true ? alert("se ha enviado el mensaje"): alert("Introduzca los datos correctamente por favor")
     x === true&& x1 === true && x2 === true ? console.log(`Nombre: ${el1} correo: ${el2} mensaje:${el3}`): console.log("se introdujeron datos incorrectos");
 }
-
-/*const formulario =document.getElementById("formulario");
-formulario.addEventListener("submit", function(event){
-    event.preventDefault();
-    alert("se pulso el boton")
-
-});*/
