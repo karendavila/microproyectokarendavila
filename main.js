@@ -21,4 +21,23 @@ window.addEventListener('load',function(){
     setInterval(Slide,3000);
  });
 
+ document.getElementById("Enviar").onclick = function(){
+    x=true
+    x1=true
+    x2=true
+    const el1=document.getElementById("nombre").value;
+    const el2=document.getElementById("correo").value;
+    const el3=document.getElementById("mensaje").value;
+    document.getElementById("nombre").value !== "" ? el1:x=false;
+    document.getElementById("correo").value !== "" ? el2:x1=false;
+    document.getElementById("mensaje").value !== "" ? el3:x2=false;
+    x === true&& x1 === true && x2 === true ? alert("se ha enviado el mensaje"): alert("Introduzca los datos correctamente por favor")
+    x === true&& x1 === true && x2 === true ? console.log(`Nombre: ${el1} correo: ${el2} mensaje:${el3}`): console.log("se introdujeron datos incorrectos");
+}
 
+/*const formulario =document.getElementById("formulario");
+formulario.addEventListener("submit", function(event){
+    event.preventDefault();
+    alert("se pulso el boton")
+
+});*/
