@@ -11,16 +11,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-/*#mainTitle{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 800px;
-    line-height: 116px;
-    text-align: center;
-    margin-top: 80px;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}*/
 
 .main-subtitle{
     font-style: normal;
@@ -89,6 +80,7 @@ li a:hover {
     height: 239px;
     left: 0px;
     top: 310px;
+   
     
     background: #DC8EA8;
 }
@@ -226,134 +218,39 @@ li a:hover {
 
 
 
-/* Desktop 
-@media (min-width: 999px){
-
-    #mainTitle{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 80px;
-        line-height: 116px;
-        text-align: center;
-        margin-top: 80px;
-    
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    .main-subtitle{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 44px;
-    
-    color: #000000;
-    }
-    
-    h2{
-        padding: 10px 32px 5px 20px;
-    }
-    
-    #navbar{
-        text-align: center;
-    }
-
-    #hero{
-        position: absolute;
-        width: 1440px;
-        height: 264px;
-        left: 0px;
-        top: 0px;
-
-    }
-    
-    ul {
-        position: absolute;
-        width: 100%;
-        height: 50px;
-        left: 0px;
-        top: 264px;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: 0;
-        background-color: #E5B9C9;
-      }
-      
-    li {
-        text-align: center;
-        float: left;
-        display: inline;
-      }
-      
-    li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-    li a:hover {
-      background-color: #111;
-      color: white;
-      }
-      
-    
+/*telefono*/ 
+@media (max-width: 999px){
     #about-me{
-    
-        position: absolute;
+
+        position: relative;
         width: 100%;
-        height: 239px;
+        height: 400px;
         left: 0px;
         top: 310px;
+       
         
         background: #DC8EA8;
+        
     }
-    
-    #karendavila1{
-        display: block;
-        float: left;
-        margin: 0px 16px 16px 32px;
-        width: 140px;
-        height: 140px;
-        border-radius: 70px;
-    }
-    
-    #texto1{
-        position: absolute;
-        width: 100%;
-        height: 101px;
-        left: 351px;
-        top: 48px;
-    
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-    
-        color: #000000;
-    }
-    
+
     #experience{
-    
-        position: absolute;
+
+        position: relative;
         width: 100%;
-        height: 363px;
+        height: 400px;
         left: 0px;
-        top: 500px;
+        top: 300px;
         
         background: #97637F;
     }
-    
-    
+
     #skills{
-    
+
         position: absolute;
         width: 100%;
         height: 71px;
         left: 0px;
-        top: 863px;
+        top: 1100px;
         
         background: #67445D;
     }
@@ -362,81 +259,10 @@ li a:hover {
     
         position: absolute;
         width: 100%;
-        height: 300px;
+        height: 350px;
         left: 0px;
-        top: 924px;
+        top: 1170px;
         
         background: #463246;
     }
-    
-    #pinterestImage{
-        padding: 8px 16px 8px 16px;
-        width: 150px;
-        height: 100px;
-    }
-    #instagramImage{
-        padding: 8px 16px 8px 16px;
-        width: 150px;
-        height: 100px;
-    }
-    #facebookImage{
-        padding: 8px 16px 8px 16px;
-        width: 150px;
-        height: 100px;
-    }
-    
-    #wsImage{
-        padding: 8px 16px 8px 16px;
-        width: 100px;
-        height: 60px;
-    }
-    #igImage{
-        padding: 8px 16px 8px 16px;
-        width: 100px;
-        height: 60px;
-    }
-    #gmailImage{
-        padding: 8px 16px 8px 16px;
-        width: 100px;
-        height: 60px;
-    }
-    
-    #formulario{
-        padding: 10px 32px 0px 100px;
-    }
-    
-    #nombre{
-        padding: 0px 32px 0px 5px;
-        display: flex;
-        flex-direction: column;
-    }
-    #correo{
-        padding: 0px 32px 0px 5px;
-        display: flex;
-        flex-direction: column;
-    }
-    #Enviar{
-        display: block;
-        padding: 0px 16px 0px 16px;
-        color: black;
-        background-color: #E5B9C9;
-    }
-    
-    #contactame{
-        padding: 10px 32px 0px 50px;
-        display: flex;
-    }
-    
-    #carousel {
-        max-width: 800px;
-        margin: 0 auto;
-        display: flex;
-    }
-    #imagen {
-        width: 100%;
-        height: 400px;
-        background-size: cover;
-
-    }
-
 }
